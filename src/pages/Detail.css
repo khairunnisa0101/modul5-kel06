@@ -1,0 +1,81 @@
+.movie-detail {
+    display: flex;
+    padding: 20px;
+    max-width: 1000px;
+    margin: 20px auto;
+    background-color: rgba(65, 65, 233, 0.1);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    color: white;
+    font-family: Verdana, sans-serif;
+  }
+  
+  .movie-poster {
+    flex: 0 0 300px;
+    margin-right: 20px;
+  }
+  
+  .movie-poster img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(65, 65, 233, 0.5);
+  }
+  
+  .movie-info {
+    flex: 1;
+    text-align: left;
+  }
+  
+  .movie-info h1 {
+    margin-bottom: 15px;
+    color: rgb(65, 65, 233);
+    font-size: 24px;
+    font-weight: bolder;
+  }
+  
+  .movie-info p {
+    margin-bottom: 10px;
+    color: #e0e0e0;
+    font-size: 14px;
+  }
+  
+  .movie-info strong {
+    color: #61dafb;
+  }
+  
+  @media (max-width: 768px) {
+    .movie-detail {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .movie-poster {
+      margin-right: 0;
+      margin-bottom: 20px;
+    }
+  
+    .movie-info {
+      text-align: center;
+    }
+  }
+  
+  /* Scrollbar styling */
+  ::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #4141e9;
+    border-radius: 0px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #4141e9;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #24233b;
+    box-shadow: inset 0px 0px 0px 0px #f0f0f0;
+  }

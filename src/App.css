@@ -36,3 +36,81 @@
     transform: rotate(360deg);
   }
 }
+
+body {
+  background-color: rgb(40, 40, 68);
+  }
+  
+  #titleGroup { margin: 0;
+  font-size: 18px; color: white;
+  font-family: Verdana; font-weight: bolder; font-size: 16px;
+  }
+  
+  header {
+  background-color: rgb(65, 65, 233); margin: auto;
+  text-align: center; padding: 10px 0;
+  }
+  
+  footer { display: flex;
+  position: fixed; bottom: 0;
+  left: 0;
+  background-color: rgb(23, 23, 43);
+  width: 100%;
+  justify-content: space-around; align-items: center;
+border-top-left-radius: 10px; border-top-right-radius: 10px; border-top: black;
+border-width: 2px;
+}
+
+.iconWrapper { display: flex;
+flex-direction: column; align-items: center; text-decoration: none; color: white;
+font-family: Verdana; padding: 5px 0;
+font-size: 12px;
+}
+
+.icon {
+color: white; margin-bottom: 4px; font-size: 22px;
+}
+
+.active {
+color: rgb(65, 65, 233);
+}
+
+::-webkit-scrollbar { width: 5px;
+height: 5px;
+}
+::-webkit-scrollbar-thumb { background: #4141e9; border-radius: 0px;
+}
+::-webkit-scrollbar-thumb:hover { background: #4141e9;
+}
+::-webkit-scrollbar-track { background: #24233b;
+box-shadow: inset 0px 0px 0px 0px #f0f0f0;
+}
+
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.footer {
+  background-color: #282c34;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-top: 2px solid black;
+}
